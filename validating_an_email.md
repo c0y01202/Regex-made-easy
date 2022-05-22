@@ -1,12 +1,12 @@
 # Validating an E-Mail
 
-Validating an e-mail address is a very important process when it comes to validating HTML data that is put into templates by end-users. This typically happens when a user subcribes to a website product or service and has to be authenticated by another company. Luckily, regular expressions in Javascript enable the back-end programmer to validate e-mail addresses for new or existing clients everytime they login to a site or subscribe to a website application.
+>Validating an e-mail address is a very important process when it comes to validating HTML data that is put into templates by end-users. This typically happens when a user subcribes to a website product or service and has to be authenticated by another company. Luckily, regular expressions in Javascript enable the back-end programmer to validate e-mail addresses for new or existing clients everytime they login to a site or subscribe to a website application.
 
 ## Summary
 
-The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript and in HTML will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are intigrated with string methods. The method 'str.match(animals)' finds all matches of 'animals' on the string 'str'.
+>The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript and in HTML will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are intigrated with string methods. The method 'str.match(animals)' finds all matches of 'animals' on the string 'str'.
 
-An e-mail is a string or subset of ASCII characters that is separated by the '@' character or elephant ear. It has two parts: personal information and a domain. The length of the personal information section can by up to 64 characters long and the domain name may be up to 253 characters long.
+>An e-mail is a string or subset of ASCII characters that is separated by the '@' character or elephant ear. It has two parts: personal information and a domain. The length of the personal information section can by up to 64 characters long and the domain name may be up to 253 characters long.
 
 ## Table of Contents
 
@@ -27,8 +27,8 @@ An e-mail is a string or subset of ASCII characters that is separated by the '@'
 ### Anchors
 
 >An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command <A NAME ='Elephants'> All about Elephants </A> marks its position as an anchor names "Elephants," and if it resides in the file 'http://www.vet.uga.edu/animals.html', then the full address of the anchor is 'http://www.vet.uga.edu/animals.html#Elephants'. 
->
->In terms of regular expressions in Javacript, the anchors '<^>' and '$ force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. The '<^>' anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The '<$>' anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
+
+>In terms of regular expressions in Javacript, the anchors '<^>' and '$' force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. The '<^>' anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The '<$>' anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
 
 ### Quantifiers
 
