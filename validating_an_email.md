@@ -60,7 +60,7 @@
 
 >Without the `m` flag in the console log the script would only render a `1` as seen here: `console.log(str.match(/^\d/g)); //1`.
 
->The `g` flag searches for all matches in a string or line of e-mails.
+>The `g` flag searches for all matches in a string or line of e-mails. When validating an e-mail `g` is for a global search, meaning it will match all occurences. 
 
 ### Grouping and Capturing
 
