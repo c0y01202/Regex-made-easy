@@ -45,7 +45,7 @@
 
 >Character class is a commonly used in regular expressions as a construct that uses square brackets `[ ]`. A character class matches a single character or group of characters out of a list of possible characters. Within a character class, the following special characters have functions: `\,^,- and ]`. In the following e-mail address: `[claudiachittim2022]@gmail.com` the letters `[claudiachittim2022]` are considered a special character class. One could load that class into a regular expression and fetch all e-mails that have those special characters in a string or query of e-mail addresses. They could then mark those characters as valid or invalid.
 
->Using the special character `\` inside a character class would match any digit from 0-9 and a-z with the letter or digit following the `\`. So `[\domain@domain.com] would match any e-mmail address with the characters that follow the `\` special character. 
+>Using the special character `\` inside a character class would match any digit from 0-9 and a-z with the letter or digit following the `\`. So `[\domain@domain.com]` would match any e-mmail address with the characters that follow the `\` special character. 
 
 ### Flags
 
