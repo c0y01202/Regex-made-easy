@@ -73,7 +73,7 @@
 
 ### Bracket Expressions
 
->Brackets `[ ]` allow a regulated expression to match specific characters within the brackets within a range. For example, `[1-9]` will search for numbers '1,2,3,4,5,6,7,8 and 9` or if given another special character a group of numbers within that range. Within the brackets the `-` character is not recognized literally. You can specify a range of characters within the brackets using a hyphen `-`. You can also replace the hyphen `-` with a carrot character `^`, as in `[^abcd] but the range of the request will only cover letters `a,b,c and d` and not include the range of the entire alphabet.  
+>Brackets `[ ]` allow a regulated expression to match specific characters within the brackets within a range. For example, `[1-9]` will search for numbers `1,2,3,4,5,6,7,8 and 9` or if given another special character a group of numbers within that range. Within the brackets the `-` character is not recognized literally. You can specify a range of characters within the brackets using a hyphen `-`. You can also replace the hyphen `-` with a carrot character `^`, as in `[^abcd] but the range of the request will only cover letters `a,b,c and d` and not include the range of the entire alphabet.  
 
 ### Greedy and Lazy Match
 
