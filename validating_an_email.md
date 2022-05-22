@@ -49,17 +49,18 @@
 
 >A regular expression (regex) consists of optional flags. There are only six types of flags in Javascript: `i, g, m, s, u and y`. Each character has a different function for searching and processing of characters. For example `m` enables the multiline mode. `m` affects the behavior of `^` amd `$`. In the multiline mode they match not only at the beginning and the end of a string, but also at the start and end of a line.
 
-An example of the `m` flag is seen below:
-`const req=(all e-mails)`
-`1st e-mail: test@testing.com`
-`2nd e-mail: testing @test.com`
-`3rd email: tester@testing.com`
+>An example of the `m` flag is seen below:
 
-`console.log( str.match(/^\d/gm)); //1,2,3`
+>`const req=(all e-mails)`
+>`1st e-mail: test@testing.com`
+>`2nd e-mail: testing @test.com`
+>`3rd email: tester@testing.com`
 
-Without the `m` flag in the console log the script would only render a `1` as seen here: `console.log(str.match(/^\d/g)); //1`.
+>`console.log( str.match(/^\d/gm)); //1,2,3`
 
-The `g` flag searches for all matches in a string or line of e-mails.
+>Without the `m` flag in the console log the script would only render a `1` as seen here: `console.log(str.match(/^\d/g)); //1`.
+
+>The `g` flag searches for all matches in a string or line of e-mails.
 
 ### Grouping and Capturing
 
