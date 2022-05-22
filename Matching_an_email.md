@@ -24,6 +24,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command <A NAME ='Elephants'> All about Elephants </A> marks its position as an anchor names "Elephants," and if it resides in the file http://www.vet.uga.edu/animals.html, then the full address of the anchor is http://www.vet.uga.edu/animals.html#Elephants
+
 ### Quantifiers
 
 ### OR Operator
@@ -46,4 +48,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+[Claudia Chittim] (https://c0y01202.github.io/Biography_Page/) is a digital analyst and beginner web developer who has over 10 years of working in the Internet industry.
