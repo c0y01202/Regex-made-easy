@@ -67,10 +67,12 @@
 >The `g` flag searches for all matches in a string or line of e-mails. When validating an e-mail `g` is for a global search, meaning it will match all occurences. 
 
 ### Grouping and Capturing
->Grouping enables a programer to capture a list of words as a whole word. For exmaple `\b(Chirp|Cuddle|Bark)\b` groups all three words together. It is useful to apply grouping when one needs to capture a string of words instead of programming the expression to capture just one word. Parentheses are needed for grouping as shown in the example above. 
->Capturing 
+>Grouping enables a programer to capture a list of words as a whole word. For exmaple `\b(Chirp|Cuddle|Bark)\b` groups all three words together. It is useful to apply grouping when one needs to capture a string of words instead of programming the expression to capture just one word. Parentheses `()` are needed for grouping as shown in the example above. 
+>
+>Capturing refers to a program that grabs at something useful to a specific program. For example, if a printer needs to "capture" a port, the Windows may allow for a program to do that. It is usually applied to programs that utilize printer ports. It is also a term that is used when saving a bitmapped image on a website. In terms of e-mail validation `capturing` is not a term that may be applied to any regular expression. 
 
 ### Bracket Expressions
+
 
 ### Greedy and Lazy Match
 
