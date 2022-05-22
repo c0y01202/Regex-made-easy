@@ -77,6 +77,15 @@
 
 ### Greedy and Lazy Match
 
+>A greedy search in a regular expression tries to match any letter, character or number within the `/` characters. For example:
+>1. `let regexp = /".+/g`
+>2. `let str = ' an "elephant" in the "room";
+>3. `alert(str.match(regexp)); // "elephant" in the "room"
+
+> Anything that is in between the the forward slash and has quotations will be picked up by the greedy search. The `g` flag makes the search global for all occurences. The `.+` denotes any character except a new line. 
+
+>A lazy match
+
 ### Boundaries
 
 ### Back-references
