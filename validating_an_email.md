@@ -53,7 +53,7 @@
 
 >1. `const req=(all e-mails)`
 >2. `1st e-mail: test@testing.com`
->3. 2nd e-mail: testing @test.com`
+>3. `2nd e-mail: testing @test.com`
 >4. `3rd email: tester@testing.com`
 
 >5. `console.log( str.match(/^\d/gm)); //1,2,3`
