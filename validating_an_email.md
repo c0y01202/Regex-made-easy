@@ -26,7 +26,7 @@
 
 ### Anchors
 
->An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command <A NAME ='Elephants'> All about Elephants </A> marks its position as an anchor names "Elephants," and if it resides in the file 'http://www.vet.uga.edu/animals.html', then the full address of the anchor is 'http://www.vet.uga.edu/animals.html#Elephants'. 
+>An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command <A NAME ='Elephants'> All about Elephants </A> marks its position as an anchor names "Elephants," and if it resides in the file `http://www.vet.uga.edu/animals.html, then the full address of the anchor is 'http://www.vet.uga.edu/animals.html#Elephants'. 
 
 >In terms of regular expressions in Javacript, the anchors (^ and $) force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. 
 >The <^> anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The '<$>' anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
@@ -34,13 +34,7 @@
 ### Quantifiers
 
 Quantifiers match a number of instances of a character, group, or character class in a string. For example, the regular expression:
-'''
-'/\d{4}/'
-'''
->matches a four-digit number. It is the same as:
->'''
-> '/\d\d\d\d/'
-> '''
+'/\d{4}/'matches a four-digit number. It is the same as:'/\d\d\d\d/'.
 >  They indicate numbers of characters or expressions to match. There are various special characters that can be used as quantifiers. For example <'b*'> will match the letter or word that proceeds a word in front of 'b' 0 or more times. To be more specific, '/go*/ matches the letter 'g' in any given expression or line of code. If we put '+' following a letter or string, the '+' symbol will match the preceding item of that character 0 or more times in a regular expression.
 
 ### OR Operator
