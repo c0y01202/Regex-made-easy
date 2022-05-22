@@ -30,7 +30,7 @@
 
 >An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command `<A NAME ='Elephants'> All about Elephants </A>` marks its position as an anchor named "Elephants," and if it resides in the file `http://www.vet.uga.edu/animals.html`, then the full address of the anchor is `http://www.vet.uga.edu/animals.html#Elephants`. 
 
->In terms of regular expressions in Javacript, the anchors `^` and `$` force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. 
+>In terms of regular expressions in Javacript, the anchors `<^`> and `<$>` force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. 
 >The `^` anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The `$` anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
 
 ### Quantifiers
@@ -73,7 +73,7 @@
 
 ### Bracket Expressions
 
->Brackets `[ ]` allow a regulated expression to match specific characters within the brackets within a range. For example, `[1-9]` will search for numbers '1,2,3,4,5,6,7,8 and 9` or if given another special character a group of numbers within that range. Within the brackets the `-` character is not recognized literally. 
+>Brackets `[ ]` allow a regulated expression to match specific characters within the brackets within a range. For example, `[1-9]` will search for numbers '1,2,3,4,5,6,7,8 and 9` or if given another special character a group of numbers within that range. Within the brackets the `-` character is not recognized literally. You can specify a range of characters within the brackets using a hyphen `-`. You can also replace the hyphen `-` with a carrot character `^`, as in `[^abcd] but the range of the request will only cover letters `a,b,c and d` and not include the range of the entire alphabet.  
 
 ### Greedy and Lazy Match
 
