@@ -51,12 +51,12 @@
 
 >An example of the `m` flag is seen below:
 
->`const req=(all e-mails)`
->`1st e-mail: test@testing.com`
->`2nd e-mail: testing @test.com`
->`3rd email: tester@testing.com`
+>1. `const req=(all e-mails)`
+>2. `1st e-mail: test@testing.com`
+>3. 2nd e-mail: testing @test.com`
+>4. `3rd email: tester@testing.com`
 
->`console.log( str.match(/^\d/gm)); //1,2,3`
+>5. `console.log( str.match(/^\d/gm)); //1,2,3`
 
 >Without the `m` flag in the console log the script would only render a `1` as seen here: `console.log(str.match(/^\d/g)); //1`.
 
