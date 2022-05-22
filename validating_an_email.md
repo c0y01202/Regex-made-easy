@@ -35,7 +35,7 @@
 
 >Quantifiers match a number of instances of a character, group, or character class in a string. For example, the regular expression:
 `/\d{4}/` matches a four-digit number. It is the same as:`/\d\d\d\d/`.
->  They indicate numbers of characters or expressions to match. There are various special characters that can be used as quantifiers. For example `b*` will match the letter or word that proceeds a word in front of `b` 0 or more times. To be more specific, `/go*/` matches the letter 'g' in any given expression or line of code. If we put `+` following a letter or string, the `+` symbol will match the preceding item of that character 0 or more times in a regular expression.
+>  They indicate numbers of characters or expressions to match. There are various special characters that can be used as quantifiers. For example `b*` will match the letter or word that proceeds a word in front of `b` 0 or more times. To be more specific, `/go*/` matches the letter `g` in any given expression or line of code. If we put `+` following a letter or string, the `+` symbol will match the preceding item of that character 0 or more times in a regular expression.
 
 ### OR Operator
 
