@@ -73,6 +73,7 @@
 
 ### Bracket Expressions
 
+>Brackets `[ ]` allow a regulated expression to match specific characters within the brackets within a range. For example, `[1-9]` will search for numbers '1,2,3,4,5,6,7,8 and 9` or if given another special character a group of numbers within that range. Within the brackets the `-` character is not recognized literally. 
 
 ### Greedy and Lazy Match
 
