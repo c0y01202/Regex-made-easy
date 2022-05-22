@@ -28,8 +28,8 @@
 
 >An anchor is a marked position in an HTML document, to which the user can jump from elsewhere. For example, the HTML command <A NAME ='Elephants'> All about Elephants </A> marks its position as an anchor names "Elephants," and if it resides in the file 'http://www.vet.uga.edu/animals.html', then the full address of the anchor is 'http://www.vet.uga.edu/animals.html#Elephants'. 
 
->In terms of regular expressions in Javacript, the anchors '''(^ and $) force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. 
->The ''''<^>' anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The '<$>' anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
+>In terms of regular expressions in Javacript, the anchors (^ and $) force the expression to find its match at the start and end of the subject text. If one places the regular expression between these characters, it effectivaly requires the singular expression to match the entire subject. 
+>The <^> anchor can force the expression to find words that follow that anchor at the beginning of a sentence or start of a line in Javascript code. The '<$>' anchor locates any term of code at the end of a line in Javascript code. Not only do these anchors apply to Javascript, they also apply to .NET, JAVA, PCRE, Python and Ruby languages.
 
 ### Quantifiers
 
