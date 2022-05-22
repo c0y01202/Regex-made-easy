@@ -2,6 +2,8 @@
 
 >Validating an e-mail address is a very important process when it comes to validating HTML data that is put into templates by end-users. This typically happens when a user subcribes to a website product or service and has to be authenticated by another company. Luckily, regular expressions in Javascript enable the back-end programmer to validate e-mail addresses for new or existing clients everytime they login to a site or subscribe to a website application.
 
+>The need to validate e-mails is even more important for as long as people have tools to create fake e-mails just for the purpose to subscribe to websites. There are also programs that confuse back-end programmers like bots that crawl websites just to enter invalid e-mail address in order to gain access to website content. 
+
 ## Summary
 
 >The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript and in HTML will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are intigrated with string methods. The method `str.match(animals)` finds all matches of 'animals' on the string `str`.
@@ -65,6 +67,8 @@
 >The `g` flag searches for all matches in a string or line of e-mails. When validating an e-mail `g` is for a global search, meaning it will match all occurences. 
 
 ### Grouping and Capturing
+>Grouping enables a programer to capture a list of words as a whole word. For exmaple `\b(Chirp|Cuddle|Bark)\b` groups all three words together. It is useful to apply grouping when one needs to capture a string of words instead of programming the expression to capture just one word. Parentheses are needed for grouping as shown in the example above. 
+>Capturing 
 
 ### Bracket Expressions
 
