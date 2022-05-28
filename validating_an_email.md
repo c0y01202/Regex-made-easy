@@ -8,7 +8,7 @@
 
 >The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript and in HTML will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are intigrated with string methods. The method `str.match(animals)` finds all matches of 'animals' on the string `str`.
 
->An e-mail is a string or subset of ASCII characters that is separated by the `@` character or elephant ear. It has two parts: personal information and a domain. The length of the personal information section can by up to 64 characters long and the domain name may be up to 253 characters long.
+>An e-mail is a string or subset of ASCII characters that is separated by the `@` character or "elephant ear". It has two parts: personal information and a domain. The length of the personal information section can by up to 64 characters long and the domain name may be up to 253 characters long.
 
 ## Table of Contents
 
@@ -88,6 +88,7 @@
 
 ### Boundaries
 
+>
 
 ### Back-references
 
