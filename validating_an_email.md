@@ -84,9 +84,10 @@
 
 > Anything that is in between the the forward slash and has quotations will be picked up by the greedy search. The `g` flag makes the search global for all occurences. The `.+` denotes any character except a new line. 
 
->A lazy match
+>A lazy match or quantifier allows the the expression or e-mail validation to repeat a minimal number of times. It is enabled by the question mark character `?`.
 
 ### Boundaries
+
 
 ### Back-references
 
