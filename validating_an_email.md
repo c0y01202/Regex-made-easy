@@ -95,4 +95,4 @@
 
 ## Author
 
-**[Claudia Chittim](https://c0y01202.github.io/Biography_Page) is a digital analyst and beginner web developer who has over 10 years of working in the Internet industry.
+[Claudia Chittim](https://c0y01202.github.io/Biography_Page) is a digital analyst and beginner web developer who has over 10 years of working in the Internet industry.
