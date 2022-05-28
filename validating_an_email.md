@@ -21,8 +21,6 @@
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -84,15 +82,11 @@
 
 > Anything that is in between the the forward slash and has quotations will be picked up by the greedy search. The `g` flag makes the search global for all occurences. The `.+` denotes any character except a new line. 
 
->A lazy match or quantifier allows the the expression or e-mail validation to repeat a minimal number of times. It is enabled by the question mark character `?`.
+>A lazy match or quantifier allows the the expression or e-mail validation to repeat a minimal number of times. It is enabled by the question mark character `?`. For example, `\w*?E` tells the expression to match zero or more word characters, but as few as needed which might be none at all, then it finally looks for `E` in any given string. 
 
 ### Boundaries
 
->
-
-### Back-references
-
-### Look-ahead and Look-behind
+> Boundaries set the beginning and end of a string of letters. For example in `[A-Z]` the letters 'A' and 'Z' are boundaries for the string associated in the brakets. Word boundaries can be replaced with start-of-string and end-of-string anchors such as `[^A-Z]`. Applying `^` to the string in the brackets will only match `A` and not `A-Z`.
 
 ## Author
 
