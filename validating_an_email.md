@@ -6,7 +6,7 @@
 
 ## Summary
 
->The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript and in HTML will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are intigrated with string methods. The method `str.match(animals)` finds all matches of 'animals' on the string `str`.
+>The regular expression to validate e-mail addresses will be covered in this tutorial. All terms and definitions related to programming regular expressions in Javascript will be revealed for the purpose of educating anyone about the usefulness of regular expressions (or regex) in the world of validating e-mails. Regular expressions are integrated with string methods. The method `str.match(animals)` finds all matches of 'animals' on the string `str`. In sum, regular expressions provide a powerful way of doing searches and replacements in strings. 
 
 >An e-mail is a string or subset of ASCII characters that is separated by the `@` character or "elephant ear". It has two parts: personal information and a domain. The length of the personal information section can by up to 64 characters long and the domain name may be up to 253 characters long.
 
@@ -21,6 +21,7 @@
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
+- [Backreferences](#backreferences)
 
 ## Regex Components
 
@@ -87,6 +88,10 @@
 ### Boundaries
 
 > Boundaries set the beginning and end of a string of letters. For example in `[A-Z]` the letters 'A' and 'Z' are boundaries for the string associated in the brakets. Word boundaries can be replaced with start-of-string and end-of-string anchors such as `[^A-Z]`. Applying `^` to the string in the brackets will only match `A` and not `A-Z`.
+
+### Backreferences
+
+>Backreferences in numbers and patterns are useful when it comes to matching larger groups of content or text paragraphs. They are not useful for validating e-mails. 
 
 ## Author
 
