@@ -1,5 +1,5 @@
 # Regex-made-easy
-# Validating an E-Mail This tutorial is copyrighted in 2022 by Claudia Chittim, Ph.D. - DO NOT COPY
+# Validating an E-Mail This tutorial is copyrighted in 2022 by Claudia Chittim, - DO NOT COPY
 
 >Validating an e-mail address is a very important process when it comes to validating HTML data that is put into templates by end-users. This typically happens when a user subcribes to a website product or service and has to be authenticated by another company. Luckily, regular expressions in Javascript enable the back-end programmer to validate e-mail addresses for new or existing clients everytime they login to a site or subscribe to a website application.
 
